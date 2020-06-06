@@ -19,7 +19,9 @@
 > 
 > -   mockJs mock数据处理一些图标和固定的
 >     
-> -   postman测试后端接口,由mongoose来模拟后端; -
+> -   postman测试后端接口,由mongoose来模拟后端; 
+>   - 后端主要做了 JWT的加密和解密 以及拦截某个接口进行验证有效期
+>   - 使用了svg插件 返回其url给前端,前端输入验证码后后端进行验证合格性
 >     
 > -   axios封装接口,拦截验证jwt的token
 >     
